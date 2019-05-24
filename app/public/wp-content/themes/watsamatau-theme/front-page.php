@@ -37,6 +37,7 @@ while ($homepageEvents->have_posts()){
   get_template_part('template-parts/content', 'event');
 
 } ?>
+
         
         
         <p class="t-center no-margin"><a href="<?php echo get_post_type_archive_link('event')?>" class="btn btn--blue">View All Events</a></p>
